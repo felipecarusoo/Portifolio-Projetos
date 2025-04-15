@@ -1,37 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Aula 3: css basico + adicionar link do css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu portfólio</title>
 </head>
+
 <body>
     <header class="container text-center">
-        <img src="assets/img/avatarfelipe1.png" alt="Avatar Felipe Caruso" class="rounded-circle" width="150" height="150">
+        <img src="assets/img/avatarfelipe1.png" alt="Avatar Felipe Caruso" class="rounded-circle" width="150"
+            height="150">
         <p class="lead">Eu sou Felipe Caruso</p>
         <h1>Eu ensino Programação_</h1>
-        <p>Sou graduado em Informática e atuo como educador, ensinando programação, robótica e pensamento computacional para professores e alunos da rede pública do Paraná.</p>
+        <p>Sou graduado em Informática e atuo como educador, ensinando programação, robótica e pensamento computacional
+            para professores e alunos da rede pública do Paraná.</p>
         <p>Algumas habilidades que aplico no meu dia a dia:</p>
         <div>
             <p class="badge bg-secondary">HTML</p>
             <p class="badge bg-secondary">CSS</p>
             <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">JSON</p> 
+            <p class="badge bg-secondary">JSON</p>
             <p class="badge bg-secondary">PHP</p>
-            <p class="badge bg-secondary">Node.js</p> 
+            <p class="badge bg-secondary">Node.js</p>
             <p class="badge bg-secondary">Python</p>
             <p class="badge bg-secondary">C/C++</p>
             <p class="badge bg-secondary">Arduino</p>
             <p class="badge bg-secondary">Scratch</p>
             <p class="badge bg-secondary">mBlock</p>
             <p class="badge bg-secondary">Blockly</p>
-            <p class="badge bg-secondary">SQL</p>            
+            <p class="badge bg-secondary">SQL</p>
         </div>
-    </header> 
+    </header>
+    <!-- Aula 4: Grid responsivo de projetos usando cards do Bootstrap -->
+    <main class="container mt-5">
+        <h2>Alguns projetos educacionais:</h2>
+        <!-- iniciando primeira linha de projetos-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/educação graphics.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Educational Graphics</h5>
+                        <p class="card-text">Projeto que utiliza JavaScript e JSON para criar gráficos dinâmicos em
+                            tempo real, consumindo dados de APIs.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repetir para outros 2 projetos -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/planning future.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Planning the Future</h5>
+                        <p class="card-text">Quadro interativo que usa JavaScript para exibir 4 metas com cronômetros
+                            personalizados, calculando o tempo restante até cada objetivo.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/diretora mandou.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">A Diretora Mandou</h5>
+                        <p class="card-text">Jogo de cartas interativas (estilo flashcards) que usam JavaScript e CSS
+                            para girar ao clicar, revelando comandos divertidos com emoji.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- iniciando 2 linha de projetos-->
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/acessibilidade.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu de Acessibilidade</h5>
+                        <p class="card-text">Ferramenta que utiliza JavaScript para ajustar tamanho das fontes e
+                            contraste da página, melhorando a experiência para usuários com necessidades visuais.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repetir para outros 2 projetos -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/near far.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Near Far</h5>
+                        <p class="card-text">Jogo deselvovido em JavaScript que utiliza coordenadas X/Y e o teorema de
+                            Pitágoras para calcular distâncias até um ponto-alvo escondido, com efeitos visuais
+                            dinâmicos no cursor para aumentar a dificuldade.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/bracho robotico.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Braço Robótico</h5>
+                        <p class="card-text">Código para controlar braço mecânico em MDF usando Arduino IDE, biblioteca
+                            Servo.h e 3 eixos (base, altura, garra), com movimentos programáveis.</p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

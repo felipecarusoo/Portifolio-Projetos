@@ -35,27 +35,53 @@
             <p class="badge bg-secondary">SQL</p>
         </div>
     </header>
-    <!-- Aula 4: Grid responsivo de projetos usando cards do Bootstrap -->
-    <main class="container mt-5">
-        <h2>Alguns projetos educacionais:</h2>
-        <!-- iniciando primeira linha de projetos-->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/img/educação graphics.png" class="card-img-top" alt="Projeto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Educational Graphics</h5>
-                        <p class="card-text">Projeto que utiliza JavaScript e JSON para criar gráficos dinâmicos em
-                            tempo real, consumindo dados de APIs.</p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
-                    </div>
+<!-- Aula 5: Modais para detalhamento dos projetos -->
+<main class="container mt-5">
+    <h2>Alguns projetos educacionais:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="assets/img/educação graphics.png" class="card-img-top" alt="Projeto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Educational Graphics</h5>
+                    <p class="card-text">Projeto que utiliza JavaScript e JSON para criar gráficos dinâmicos em
+                        tempo real, consumindo dados de APIs.</p>
+                    <!-- Adicione data-bs-toggle e data-bs-target ao botão -->
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">
+                        Veja o projeto
+                    </button>
                 </div>
             </div>
-            <!-- Você poderia Repetir para outros 2 projetos, depois iniciar mais uma linha(row) -->
         </div>
-    </main>
+        <!-- Você poderia Repetir para outros 2 projetos, depois iniciar mais uma linha(row) -->
+    </div>
+</main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Modal - Cole este código no final do documento antes do script -->
+<div class="modal fade" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Educational Graphics</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Gráficos dinâmicos com JavaScript.</p>
+                <img src="assets/img/educação graphics.png" class="img-fluid">
+            </div>
+            <!-- BOTÕES (GitHub + Deploy + Fechar) -->
+            <div class="modal-footer">
+                <a href="https://github.com/felipecarusoo/educacao-graph" class="btn btn-dark" target="_blank">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+                <a href="https://educacao-graph.vercel.app/?vercelToolbarCode=XXUW4YXDxVuZqsM" class="btn btn-primary" target="_blank">
+                    <i class="bi bi-box-arrow-up-right"></i> Deploy
+                </a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

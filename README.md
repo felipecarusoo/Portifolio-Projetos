@@ -1,238 +1,60 @@
-Portfólio de Projetos — Felipe Caruso
+# Portfólio de Projetos — Felipe Caruso
 
 Site vitrine dos projetos educacionais que desenvolvo e utilizo em formação de professores e aulas de programação na rede pública do Paraná (SEED-PR).
 
-Sobre
+## Sobre
 
-Este repositório reúne uma página de apresentação pessoal com cards modais (Bootstrap) apontando para repositórios e deploys dos materiais que uso em sala — bases para turmas, demos em p5.js e ferramentas em JavaScript.
+Este repositório reúne uma página de apresentação pessoal com cards modais (Bootstrap) apontando para repositórios e deploys dos materiais que uso em sala — bases para turmas, demos em **p5.js** e ferramentas em JavaScript.
 
-Autor: Felipe Caruso
-Contexto: educador de programação, robótica e pensamento computacional
+**Autor:** [Felipe Caruso](https://github.com/felipecarusoo)  
+**Contexto:** educador de programação, robótica e pensamento computacional
 
-Tecnologias
+## Tecnologias
 
+- HTML5
+- CSS3 (`assets/css/style.css`)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
 
+## Projetos em destaque
 
+| Projeto | Repositório | Descrição |
+| --- | --- | --- |
+| Gráficos Educação | [Graficos-Educacao-Js-Json](https://github.com/felipecarusoo/Graficos-Educacao-Js-Json) | Gráficos dinâmicos com JavaScript e JSON |
+| Planejando o Futuro | [Planejando-o-Futuro](https://github.com/felipecarusoo/Planejando-o-Futuro) | Base HTML/CSS/JS — metas e planejamento |
+| Menu de Acessibilidade | [Menu-de-Acessibilidade](https://github.com/felipecarusoo/Menu-de-Acessibilidade) | Site com recursos de acessibilidade |
+| A Diretora Mandou | [Flash-Cards-Diretora-Mandou](https://github.com/felipecarusoo/Flash-Cards-Diretora-Mandou) | Jogo educativo com flash cards |
+| Near & Far | [Near-far-JS](https://github.com/felipecarusoo/Near-far-JS) | Demo p5.js — perspectiva e profundidade |
+| Gerador de Senhas | [Gerador-de-Senhas](https://github.com/felipecarusoo/Gerador-de-Senhas) | Base JavaScript para turmas |
+| Storytelling | [StorytellingBase](https://github.com/felipecarusoo/StorytellingBase) | Base de site narrativo — 2.º trimestre |
 
+> O `index.html` ainda exibe apenas o card **Educational Graphics**. As imagens em `assets/img/` já estão prontas para os demais cards — próximo passo é repetir o bloco de card + modal para cada projeto da tabela acima e corrigir o link do GitHub (`educacao-graph` → `Graficos-Educacao-Js-Json`).
 
-HTML5
+## Demos p5.js (aulas)
 
+Material de apoio usado pontualmente no [p5.js Web Editor](https://editor.p5js.org/):
 
+| Demo | Repositório |
+| --- | --- |
+| Animação | [Animacao-Aula-JS](https://github.com/felipecarusoo/Animacao-Aula-JS) |
+| Pong | [Jogo-Pong-jS](https://github.com/felipecarusoo/Jogo-Pong-jS) |
+| Monalisa | [Monalisa-JS](https://github.com/felipecarusoo/Monalisa-JS) |
+| Near & Far | [Near-far-JS](https://github.com/felipecarusoo/Near-far-JS) |
+| Recomendador | [recomendador-filmes-js](https://github.com/felipecarusoo/recomendador-filmes-js) |
 
-CSS3 (assets/css/style.css)
+## Como rodar localmente
 
-
-
-Bootstrap 5
-
-
-
-Bootstrap Icons
-
-Projetos em destaque
-
-
-
-
-
-
-
-Projeto
-
-
-
-Repositório
-
-
-
-Descrição
-
-
-
-
-
-Gráficos Educação
-
-
-
-Graficos-Educacao-Js-Json
-
-
-
-Gráficos dinâmicos com JavaScript e JSON
-
-
-
-
-
-Planejando o Futuro
-
-
-
-Planejando-o-Futuro
-
-
-
-Base HTML/CSS/JS — metas e planejamento
-
-
-
-
-
-Menu de Acessibilidade
-
-
-
-Menu-de-Acessibilidade
-
-
-
-Site com recursos de acessibilidade
-
-
-
-
-
-A Diretora Mandou
-
-
-
-Flash-Cards-Diretora-Mandou
-
-
-
-Jogo educativo com flash cards
-
-
-
-
-
-Near & Far
-
-
-
-Near-far-JS
-
-
-
-Demo p5.js — perspectiva e profundidade
-
-
-
-
-
-Gerador de Senhas
-
-
-
-Gerador-de-Senhas
-
-
-
-Base JavaScript para turmas
-
-
-
-
-
-Storytelling
-
-
-
-StorytellingBase
-
-
-
-Base de site narrativo — 2.º trimestre
-
-
-
-O index.html ainda exibe apenas o card Educational Graphics. As imagens em assets/img/ já estão prontas para os demais cards — próximo passo é repetir o bloco de card + modal para cada projeto da tabela acima e corrigir o link do GitHub (educacao-graph → Graficos-Educacao-Js-Json).
-
-Demos p5.js (aulas)
-
-Material de apoio usado pontualmente no p5.js Web Editor:
-
-
-
-
-
-
-
-Demo
-
-
-
-Repositório
-
-
-
-
-
-Animação
-
-
-
-Animacao-Aula-JS
-
-
-
-
-
-Pong
-
-
-
-Jogo-Pong-jS
-
-
-
-
-
-Monalisa
-
-
-
-Monalisa-JS
-
-
-
-
-
-Near & Far
-
-
-
-Near-far-JS
-
-
-
-
-
-Recomendador
-
-
-
-recomendador-filmes-js
-
-Como rodar localmente
-
-
-
-
-
-Clone o repositório:
-
- git clone https://github.com/felipecarusoo/Portifolio-Projetos.git
-
-
-
-Abra index.html no navegador (Live Server ou arrastar o arquivo).
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/felipecarusoo/Portifolio-Projetos.git
+   ```
+2. Abra `index.html` no navegador (Live Server ou arrastar o arquivo).
 
 Não há build nem dependências npm — apenas CDN do Bootstrap.
 
-Estrutura
+## Estrutura
 
+```
 Portifolio-Projetos/
 ├── index.html          # Página principal
 ├── assets/
@@ -240,11 +62,12 @@ Portifolio-Projetos/
 │   └── img/            # Capturas dos projetos
 ├── LICENSE
 └── README.md
+```
 
-Licença
+## Licença
 
-MIT — veja LICENSE.
+MIT — veja [LICENSE](LICENSE).
 
-
+---
 
 Formação continuada · SEED-PR · Programação na educação básica
